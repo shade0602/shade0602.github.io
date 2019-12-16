@@ -34,4 +34,6 @@ img {
 	display: block;
 	margin: 0 auto;
 }
-
+p {
+	background-image: url("images/dinosaur.jpg");
+}
