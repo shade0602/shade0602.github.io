@@ -1,7 +1,19 @@
 html {
-	font-size: 10px; /* базовый шрифт будет 10 пикселей в высоту  */;
+	font-size: 9px; /* базовый шрифт будет 10 пикселей в высоту  */;
 	font-family: 'Raleway', sans-serif;
 	background-color: #D1FCCE
+}
+
+q {
+	font-size: 15px;
+}
+
+cite {
+	font-size: 15px;
+}
+
+.citata {
+	padding: 0 0 10px 50%;
 }
 
 h1 {
@@ -16,17 +28,17 @@ p, li, dl {
 }
 
 body {
-	width: 700px;
+	width: 900px;
 	margin: 0 auto;
 	background-color: #B6D5FB;
-	padding: 0 20px 20px 20px;
-	border: 3px solid black;
+	padding: 0 20px 5px 20px;
+	border: 3px solid white;
 }
 
 h1 {
 	margin: 0;
 	padding: 10px 0;
-	color: #D1FCCE;
+	color: rgb(14, 33, 207);
 	text-shadow: 3px 3px 1px black;
 }
 
@@ -34,6 +46,17 @@ img {
 	display: block;
 	margin: 0 auto;
 }
-p {
-	background-image: url("images/dinosaur.jpg");
+
+footer {
+	margin: 30px 0 0 0;
+}
+
+iframe {
+	display: block;
+	margin: 0 auto;
+}
+
+video {
+	display: block;
+	margin: 0 auto;
 }

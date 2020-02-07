@@ -4,9 +4,7 @@
 		<meta charset="utf-8">
 		<meta name="author" content="Arthur Husainov">
 		<meta name="description" content="Тестовая страничка тема которой - паук-птицеед Tliltocatl Vagans, немного советов о его содержании, поведении, а также его описание.">
-		
 		<title>Моя тестовая страница</title>
-		
 		<link rel="shortcut icon" href="images/tliltokatlvagans3.png">
 		<link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet"> 
 		<link href="styles/style.css" rel="stylesheet" type="text/css">
@@ -18,16 +16,22 @@
 			<h1>Tliltocatl vagans</h1>
 		</header>
   
-		<p><q>Муравьи народ не сильный, но летом заготовляют пищу свою; горные мыши народ слабый, но ставят дома свои на скале; у саранчи нет царя,
-		но выступает вся она стройно; паук лапками цепляется, но бывает в царских чертогах.</q> <cite>Соломон 1011-913 до н.э.</cite></p>
+		<div class="citata"><q>Муравьи народ не сильный, но летом заготовляют пищу свою; горные мыши народ слабый, но ставят дома свои на скале; у саранчи нет царя,
+		но выступает вся она стройно; паук лапками цепляется, но бывает в царских чертогах.</q><br><cite>Соломон 1011-913 до н.э.</cite></div>
 		
 		<img src="images/tliltokatlvagans1.png" alt="Роджер ест таракана" title="Tliltocatl vagans">
 		
 		<nav>
 			<h2>Домашняя страница</h2>
-			<h2><a href="morphology.html">Морфология</a></h2> <!--весь раздел уйдет на другую страницу-->
+			<h2><a href="morphology.html">Морфология</a></h2>
 			<h2><a href="galery.html">Фото и видео</a></h2>
-			<h2><a href="contacts.html" title="Мои контакты">Контакты</a></h2> <!--ссылка на другую страницу-->
+			<h2><a href="contacts.html" title="Мои контакты">Контакты</a></h2>
+			<h2>
+				<form action="">
+					<label for="search">Поиск</label>
+					<input type="search" id="search" name="search">
+				</form>
+			</h2>
 		</nav>
 		<br>
 		<aside>
@@ -45,14 +49,12 @@
 				арахнология</p>
 				
 				<h2>Ареал обитания</h2>
-				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14903871.181431236!2d-77.72459789298244!3d6.813836932480797!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sae!4v1577369232222!5m2!1sru!2sae" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14903871.181431236!2d-77.72459789298244!3d6.813836932480797!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sae!4v1577369232222!5m2!1sru!2sae"
+				width="560" height="320" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
 				
-				<!--пока не знаю для чего две нижие строки-->
-				<input type="text" disabled>
-				<input type="text">
-				
-				<h2>Интересный канал на Yotube о птицеедах</h2>
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/hvTQXpV_cq8" frameborder="0" allow="accelerometer;
+				<h2>Интересный канал о птицеедах на Yotube</h2>
+				<iframe src="https://www.youtube.com/embed/hvTQXpV_cq8"
+				width="560" height="320"  frameborder="0" allow="accelerometer;
 				autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				
 				<p>Отличный вид для содержания дома, в качестве домашнего питомца.</p>
@@ -64,14 +66,8 @@
 				</ol>
 	
 				<p>И из-за этого может быть не самым лучшим вариантом как первый паук.</p>
-	
-				<h2 id="002">Дополнительая информация</h2>
-				<p>Вот для начала <a href="https://ru.wikipedia.org/wiki/Brachypelma_vagans" title="Википедия" target="_blank">немного общей
-				информации</a> о красивом пауке</p>
-				<p>Советую всем прочитать эту <a href="pdfs/shulсev.pdf" title="Книга Шульцева. Пауки-Птицееды" target="_blank">книгу</a>
-				перед тем как завести птицееда.</p>
-	
-				<h3 id="003">Интересные факты</h3>
+
+				<h2 id="003">Интересные факты</h2>
 				<ul>
 					<li>На самом деле название &quot;птицеед&quot; не означает что пауки-птицееды едят птиц.</li>
 					<li>У пауков практически нет памяти.</li>
@@ -81,6 +77,12 @@
 						title="Википедия" target="_blank">птицееды</a> это две разные группы пауков
 					</li>
 				</ul>
+	
+				<h2 id="002">Дополнительая информация</h2>
+				<p>Вот для начала <a href="https://ru.wikipedia.org/wiki/Brachypelma_vagans" title="Википедия" target="_blank">немного общей
+				информации</a> о красивом пауке</p>
+				<p>Советую всем прочитать эту <a href="pdfs/shulсev.pdf" title="Книга Шульцева. Пауки-Птицееды" target="_blank">книгу</a>
+				перед тем как завести птицееда.</p>
 			</article>
 		</main>
 	
