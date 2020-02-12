@@ -1,7 +1,7 @@
 html {
-	font-size: 9px; /* базовый шрифт будет 10 пикселей в высоту  */;
+	font-size: 10px; /* базовый шрифт будет 10 пикселей в высоту  */;
 	font-family: 'Raleway', sans-serif;
-	background-color: #D1FCCE
+	background-color: #D1FCCE;
 }
 
 q {
@@ -14,6 +14,7 @@ cite {
 
 .citata {
 	padding: 0 0 10px 50%;
+	text-align: justify;
 }
 
 h1 {
@@ -23,8 +24,14 @@ h1 {
 
 p, li, dl {
 	font-size: 16px;
-	line-height: 2;
+	line-height: 1.4;
 	letter-spacing: 0px;
+	
+}
+
+p {
+	margin-top: 0px;
+	margin-bottom: 3px;
 }
 
 body {
@@ -59,4 +66,28 @@ iframe {
 video {
 	display: block;
 	margin: 0 auto;
+}
+
+nav {
+	display: flex;
+}
+
+nav > h2 {
+	padding: 10px 5px 5px 5px;
+	margin: 2px;
+	background-color: #D1FCCE;
+	color: rgb(14, 33, 207);
+}
+
+nav a {
+	text-decoration: none;
+}
+
+nav :hover {
+	background-color: aqua;
+	color: rgb(14, 33, 207);
+}
+
+nav a:visited {
+	color: rgb(14, 33, 207);
 }
