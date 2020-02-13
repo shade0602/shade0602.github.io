@@ -13,7 +13,7 @@ cite {
 }
 
 .citata {
-	padding: 0 0 10px 50%;
+	padding: 0 0 10px 30%;
 	text-align: justify;
 }
 
@@ -49,34 +49,46 @@ h1 {
 	text-shadow: 3px 3px 1px black;
 }
 
+h2 {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 5px;
+}
+
 img {
-	display: block;
-	margin: 0 auto;
+	float: right;
+	margin-left: 20px;
+	margin-top: 7px;
+	margin-bottom: 5px;
+	border: white solid 1px;
+	border-radius: 5px;
+}
+
+main {
+	clear: both;
 }
 
 footer {
 	margin: 30px 0 0 0;
 }
 
-iframe {
+iframe, video, audio {
 	display: block;
 	margin: 0 auto;
-}
-
-video {
-	display: block;
-	margin: 0 auto;
+	border: white solid 1px;
+	border-radius: 5px;
 }
 
 nav {
 	display: flex;
 }
 
-nav > h2 {
+nav h2 {
 	padding: 10px 5px 5px 5px;
 	margin: 2px;
 	background-color: #D1FCCE;
 	color: rgb(14, 33, 207);
+	border-radius: 7px
 }
 
 nav a {
@@ -90,4 +102,14 @@ nav :hover {
 
 nav a:visited {
 	color: rgb(14, 33, 207);
+}
+
+aside {
+	margin-top: 25px;
+	text-align: center;
+}
+
+aside h2 {
+	margin-top: 0px;
+	margin-bottom: 15px;
 }
